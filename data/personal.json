@@ -1,68 +1,65 @@
 {
-   "name": "Sagar Gupta",
-   "title": "Professional Services (Cloud Consultant) - DevOps/MLOps at AWS",
-   "location": "Hyderabad, India",
-   "contact": {
-      "email": "sg85207@gmail.com",
-      "phone": "+91-8770532413",
-      "linkedin": "sagar-gupta-16-10",
-      "github": "Sagargupta16"
-   },
-   "roles": [
-      "Cloud Consultant at AWS - DevOps/MLOps",
-      "DevOps & Infrastructure Automation Engineer",
-      "MLOps Engineer",
-      "Full-Stack Developer",
-      "Open Source Contributor",
-      "Competitive Programmer"
-   ],
-   "about": {
-      "greeting": "👋 Hi, my name is Sagar Gupta.",
-      "current_role": "💼 Cloud & DevOps/MLOps Engineer at AWS Professional Services, delivering DevOps engagements for leading financial institutions like State Street and DTCC. Leading a greenfield AWS migration for 50+ application workloads at RWS.",
-      "specialization": "🚀 Built production MLOps pipelines on SageMaker, published architecture patterns on AWS Prescriptive Guidance, and contributed to major open source projects including Apache Airflow, Terraform Provider AWS, and Feast.",
-      "education": "🎓 Completed MCA from National Institute of Technology, Warangal (CGPA: 8.38, NIMCET AIR 208). 6x certified across AWS and Terraform.",
-      "competitive_programming": "🏆 LeetCode Knight (2007 peak rating), 2000+ problems solved across platforms, 140+ contests. Google Kick Start '22 Top 5%."
-   },
-   "statistics": {
-      "coding_questions": "2000+",
-      "leetcode_rating": "2007",
-      "projects": "25+",
-      "contests": "140+",
-      "industry_certifications": "6",
-      "open_source_prs": "13+"
-   },
-   "languages": [
-      { "name": "English", "level": "Professional Working" },
-      { "name": "Hindi", "level": "Native" }
-   ],
-   "social_profiles": [
-      {
-         "id": 1,
-         "name": "LinkedIn",
-         "link": "https://www.linkedin.com/in/sagar-gupta-16-10/",
-         "icon": "BsLinkedin"
-      },
-      {
-         "id": 2,
-         "name": "GitHub",
-         "link": "https://github.com/Sagargupta16",
-         "icon": "FaGithub"
-      },
-      {
-         "id": 3,
-         "name": "Instagram",
-         "link": "https://www.instagram.com/sagar_sethh/",
-         "icon": "FiInstagram"
-      },
-      {
-         "id": 4,
-         "name": "Twitter",
-         "link": "https://x.com/Sagargupta1610/",
-         "icon": "SiX"
-      }
-   ],
-   "site": {
-      "counter_namespace": "sagargupta-portfolio",
-      "tech_stack": ["React 19", "Vite 7", "Tailwind v4", "Three.js", "Motion"]
-   }
+  "name": "Ryan Laird",
+  "title": "Founder & Director at Green Orbit Digital",
+  "location": "Leicester, United Kingdom",
+  "contact": {
+    "email": "",
+    "phone": "",
+    "linkedin": "rjmlaird",
+    "github": "rjmlaird"
+  },
+  "roles": [
+    "Founder & Director at Green Orbit Digital",
+    "Communications and Marketing Professional",
+    "Science Communicator",
+    "Space Sector Strategist",
+    "Digital Content Manager",
+    "Project Manager"
+  ],
+  "about": {
+    "greeting": "👋 Hi, my name is Ryan Laird.",
+    "current_role": "💼 Founder and Director of Green Orbit Digital, leading sustainable marketing and communications work for space-sector and mission-driven organisations.",
+    "specialization": "🚀 I combine physics, astrophysics, space-sector knowledge, marketing, PR, and digital strategy to communicate complex ideas clearly and drive measurable engagement.",
+    "education": "🎓 Studied Physics with Astrophysics at the University of Leicester and completed postgraduate work in astronomy, science communication, and digital marketing.",
+    "experience": "🏆 Over a decade of experience across the space industry, science communication, editorial work, marketing, outreach, and project delivery."
+  },
+  "statistics": {
+    "years_of_experience": "10+",
+    "core_disciplines": "5+",
+    "portfolio_sites": "3+",
+    "languages": "2"
+  },
+  "languages": [
+    { "name": "English", "level": "Native / Professional Working" }
+  ],
+  "social_profiles": [
+    {
+      "id": 1,
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/rjmlaird/",
+      "icon": "BsLinkedin"
+    },
+    {
+      "id": 2,
+      "name": "GitHub",
+      "link": "https://github.com/rjmlaird",
+      "icon": "FaGithub"
+    },
+    {
+      "id": 3,
+      "name": "Instagram",
+      "link": "https://www.instagram.com/rjmlaird/",
+      "icon": "FiInstagram"
+    },
+    {
+      "id": 4,
+      "name": "X",
+      "link": "https://x.com/rjmlaird",
+      "icon": "SiX"
+    }
+  ],
+  "site": {
+    "counter_namespace": "rjmlaird-portfolio",
+    "tech_stack": ["Astro", "JavaScript", "Tailwind CSS", "GitHub", "Notion"]
+  }
 }
