@@ -1,275 +1,321 @@
 {
    "professional_experience": [
+  {
+    "id": 1,
+    "date": "October 2023 - Present",
+    "title": "Founder & Director",
+    "company": "Green Orbit Digital",
+    "companyType": "Agency",
+    "location": "Leicester, United Kingdom",
+    "summary": "Leading a specialist marketing agency that integrates sustainability into brand strategy and communications for space-sector clients.",
+    "responsibilities": [
+      "Developed and executed data-informed marketing and PR strategies for clients in the space and Earth-observation sectors.",
+      "Built sustainable marketing programmes that align brand growth with environmental best practice and Carbon Literacy principles.",
+      "Managed client relationships, project budgets, and cross-disciplinary teams (creative, technical, editorial).",
+      "Produced content and campaigns to increase engagement, lead generation, and sector visibility."
+    ],
+    "skills": [
+      "Sustainable Marketing",
+      "Brand Strategy",
+      "Content Strategy",
+      "SEO",
+      "Social Media",
+      "Lead Generation",
+      "Project Management",
+      "Stakeholder Engagement"
+    ],
+    "links": [
       {
-         "id": 1,
-         "date": "August 2024 - Present",
-         "title": "Professional Services (Cloud Consultant) - DevOps/MLOps",
-         "position": "Full-time",
-         "company": "Amazon Web Services",
-         "location": "Hyderabad, India",
-         "summary": "Assisting enterprise customers in designing, migrating, implementing, and building scalable solutions on AWS with infrastructure automation and MLOps.",
-         "projects": [
-            {
-               "name": "Lead DevOps Consultant - RWS (Ongoing)",
-               "date": "Feb 2026 - Present",
-               "description": {
-                  "1": "Leading greenfield AWS migration as the sole DevOps consultant - designing AWS Organizations OU structure, SCPs, tag policies, and deploying Terraform infrastructure with GitHub Actions CI/CD across multi-account environments.",
-                  "2": "Implemented governance and infrastructure security controls - preventative SCPs, tag compliance guardrails, Config rules, and Security Hub standards across the org - enforcing least-privilege access and regulatory alignment from day one.",
-                  "3": "Architecting the multi-account networking foundation - Transit Gateway hub-and-spoke, centralized VPC design, hybrid connectivity (VPN/Direct Connect), DNS resolution, and egress control via centralized inspection.",
-                  "4": "Driving architecture decisions and defining migration roadmap for 50+ application workloads. Delivering recommendations on cost optimization, HA, and DR to customer stakeholders.",
-                  "5": "Leveraging Kiro for AI-driven requirement analysis, architecture documentation, and implementation specs - significantly accelerating delivery velocity."
-               },
-               "skills": [
-                  "AWS",
-                  "AWS Organizations",
-                  "SCPs",
-                  "Tag Policies",
-                  "Security Hub",
-                  "Config Rules",
-                  "Transit Gateway",
-                  "VPC",
-                  "Direct Connect",
-                  "VPN",
-                  "Route 53",
-                  "Terraform",
-                  "GitHub Actions",
-                  "Cloud Migration",
-                  "Solution Architecture",
-                  "Kiro"
-               ]
-            },
-            {
-               "name": "DevOps Consultant - DTCC",
-               "date": "Aug 2025 - Dec 2025",
-               "description": {
-                  "1": "Refactored and created critical Terraform infrastructure code to enhance security and scalability, solving complex legacy modernization challenges in financial services.",
-                  "2": "Leveraged Amazon Q AI capabilities to accelerate development workflows, code analysis, and migration assessments, transforming infrastructure patterns to align with cloud-native principles.",
-                  "3": "Partnered with client engineering teams on secure infrastructure practices and knowledge transfer."
-               },
-               "skills": [
-                  "AWS",
-                  "Terraform",
-                  "Amazon Q",
-                  "CloudFormation",
-                  "DevSecOps",
-                  "Cloud Migration"
-               ]
-            },
-            {
-               "name": "Medical Image Classification MLOps Pipeline (Internal - SME Program)",
-               "date": "Jun 2025 - Aug 2025",
-               "description": {
-                  "1": "Architected end-to-end MLOps pipeline on SageMaker, automating data processing, multi-model training, and ensemble model creation for medical image classification.",
-                  "2": "Deployed production SageMaker endpoints with blue-green deployment, auto-scaling, and drift detection - enabling zero-downtime model updates with automatic rollback.",
-                  "3": "Provisioned entire infrastructure with Terraform and built CI/CD via CodePipeline and CodeBuild, deploying CloudFront frontend and API Gateway + Lambda inference API."
-               },
-               "skills": [
-                  "AWS",
-                  "SageMaker",
-                  "CloudWatch",
-                  "Lambda",
-                  "API Gateway",
-                  "EventBridge",
-                  "CodePipeline",
-                  "CloudFront",
-                  "Terraform",
-                  "Python"
-               ]
-            },
-            {
-               "name": "DevOps Consultant - State Street",
-               "date": "Oct 2024 - Aug 2025",
-               "description": {
-                  "1": "Built Terraform module library covering 38+ AWS services with automated testing (tftest, PyTest), adopted across the client's cloud platform by application teams.",
-                  "2": "Architected 1000+ preventative security controls aligned with CCMv4.0 compliance requirements, designing self-service capabilities with governance guardrails.",
-                  "3": "Delivered POCs showcasing use-cases of various AWS services through Terraform, and implemented evidence and federated architecture patterns.",
-                  "4": "Collaborated across Landing Zone, Compliance, Security, and Migrations workstreams. Achieved 10/10 CSAT score and 3 consecutive 5/5 Pulse ratings from customer."
-               },
-               "skills": [
-                  "AWS",
-                  "Terraform",
-                  "tftest",
-                  "PyTest",
-                  "EventBridge",
-                  "CloudWatch",
-                  "SNS",
-                  "EBS",
-                  "Detective",
-                  "CCMv4.0",
-                  "Security Hardening"
-               ]
-            }
-         ],
-         "internal_contributions": [
-            {
-               "title": "Tech Talk: Automating Unit Testing for Terraform using Terraform Test and PyTest frameworks",
-               "type": "talk",
-               "year": "2025"
-            },
-            {
-               "title": "Tech Talk: GitOps Configuration Safety with Health Checks and Pipeline Gating",
-               "type": "talk",
-               "year": "2026"
-            },
-            {
-               "title": "APG Pattern: Secure PR Previews and Approval-Gated Releases for Amplify Gen 2 with GitHub (Published)",
-               "type": "publication",
-               "year": "2025"
-            },
-            {
-               "title": "2 APG Patterns Peer Reviewed",
-               "type": "publication",
-               "year": "2025"
-            }
-         ],
-         "internal_achievements": [
-            {
-               "title": "ProServe MLOps SME Program Graduate",
-               "type": "program",
-               "year": "2025"
-            },
-            {
-               "title": "4x TFC Ambassador: AI/ML, NGDE, CloudOps DevOps Agent, Agentic AI",
-               "type": "program",
-               "year": "2025-2026"
-            },
-            {
-               "title": "Associate Speaker Certification",
-               "type": "program",
-               "year": "2026"
-            },
-            {
-               "title": "AWS T&C Subject Matter Expert (SME) Program Contributor",
-               "type": "program",
-               "year": "2025"
-            },
-            {
-               "title": "ML Hackathon 2025 - 26th/238 teams",
-               "type": "program",
-               "year": "2025"
-            }
-         ]
-      },
-      {
-         "id": 2,
-         "date": "March 2024 - July 2024",
-         "title": "Associate Professional Services - DevOps",
-         "position": "Internship",
-         "company": "Amazon Web Services",
-         "location": "Hyderabad, India",
-         "summary": "Underwent extensive hands-on DevOps and Cloud training, delivered multiple proof-of-concepts, and contributed to a production ECS migration project using Terraform and CI/CD pipelines.",
-         "projects": [
-            {
-               "name": "ECS Application Deployment with Terraform",
-               "date": "Mar 2024 - Jul 2024",
-               "description": {
-                  "1": "Migrated on-premises web application to AWS ECS, implementing high-availability architecture and CI/CD pipeline using AWS CodePipeline, reducing maintenance overhead.",
-                  "2": "Architected infrastructure as code using Terraform, managing AWS resources including VPC, ALB, and ECS clusters while implementing blue-green deployment strategy for zero-downtime updates.",
-                  "3": "Automated Docker image building and deployment process through integration of AWS CodeBuild, CodeDeploy, and Amazon ECR, streamlining application delivery workflow.",
-                  "4": "Established comprehensive monitoring solution using AWS X-Ray and CloudWatch for distributed tracing and full observability of application performance."
-               },
-               "skills": [
-                  "AWS",
-                  "ECS",
-                  "CodePipeline",
-                  "ECR",
-                  "X-Ray",
-                  "CloudWatch",
-                  "Terraform",
-                  "Docker",
-                  "CodeBuild",
-                  "CodeDeploy",
-                  "VPC",
-                  "ALB",
-                  "Blue-Green Deployment"
-               ]
-            }
-         ],
-         "internal_contributions": [],
-         "internal_achievements": [
-            {
-               "title": "TechU Graduate",
-               "type": "program",
-               "year": "2024"
-            }
-         ]
-      },
-      {
-         "id": 3,
-         "date": "May 2023 - July 2023",
-         "title": "Software Developer Associate",
-         "position": "Internship",
-         "company": "Ikarus-3D",
-         "location": "Mohali, India",
-         "summary": "Containerized and deployed production applications on AWS, building CI/CD pipelines and establishing code quality infrastructure.",
-         "projects": [
-            {
-               "name": "Web Application Containerization and Deployment",
-               "date": "May 2023 - Jul 2023",
-               "description": {
-                  "1": "Containerized application with Docker and deployed to AWS using ECR and ECS services.",
-                  "2": "Implemented comprehensive CI/CD pipeline using GitHub Actions, automating linting, testing, building, and deployment processes.",
-                  "3": "Standardized codebase with multi-language linting (pylint, flake8, Black, ESLint, Stylelint) and unit testing (Pytest, Jest).",
-                  "4": "Deployed SonarQube on AWS EC2 with RDS integration for continuous code quality analysis.",
-                  "5": "Provisioned Forem platform using Ansible for streamlined infrastructure automation."
-               },
-               "skills": [
-                  "AWS",
-                  "EC2",
-                  "ECR",
-                  "ECS",
-                  "RDS",
-                  "Docker",
-                  "GitHub Actions",
-                  "SonarQube",
-                  "Ansible",
-                  "Python",
-                  "JavaScript",
-                  "CI/CD"
-               ]
-            }
-         ],
-         "internal_contributions": [],
-         "internal_achievements": []
+        "label": "Agency site",
+        "url": "https://greenorbit.space"
       }
-   ],
-   "positions_of_responsibility": [
-      {
-         "id": 1,
-         "date": "August 2023 - June 2024",
-         "title": "Additional Secretary",
-         "position": "",
-         "company": "CSEA, NIT Warangal",
-         "location": "Warangal, Telangana",
-         "summary": "Part of the largest student body on campus, creating opportunities for students to learn, grow, and have fun.",
-         "description": {
-            "1": "Member of the Contest Team, organizing competitive programming events and coding challenges.",
-            "2": "Member of the Development Team, building and maintaining web applications for the club."
-         },
-         "skills": [
-            "Communication",
-            "Leadership",
-            "Teamwork",
-            "Management",
-            "Git",
-            "GitHub",
-            "React",
-            "Nodejs"
-         ]
-      },
-      {
-         "id": 2,
-         "date": "August 2023 - June 2024",
-         "title": "Class Representative",
-         "position": "",
-         "company": "MCA Final Year, NIT Warangal",
-         "location": "Warangal, Telangana",
-         "summary": "Facilitated student-faculty communication and managed class operations for MCA Final Year.",
-         "description": {
-            "1": "Facilitate effective communication between students and faculty, representing the class in meetings.",
-            "2": "Collaborate with class representatives to address student concerns and enhance the learning environment."
-         },
-         "skills": ["Communication", "Leadership", "Teamwork", "Management"]
-      }
-   ]
-}
+    ]
+  },
+  {
+    "id": 2,
+    "date": "March 2023 - October 2023",
+    "title": "Career Break / Professional Development",
+    "company": "Self-directed",
+    "location": "United Kingdom",
+    "summary": "Focused on professional development following a personal bereavement, completing Chartered Marketer accreditation and courses in science communication and digital marketing.",
+    "responsibilities": [
+      "Achieved Chartered Marketer (CMktr) accreditation.",
+      "Completed Applied Science Communication: Online and Media Writing (UWE).",
+      "Completed multiple online professional courses to update marketing and communications skills."
+    ],
+    "skills": [
+      "Chartered Marketing",
+      "Science Communication",
+      "Professional Development",
+      "Digital Marketing Techniques"
+    ]
+  },
+  {
+    "id": 3,
+    "date": "August 2021 - February 2023",
+    "title": "Marketing & Communications Manager",
+    "company": "HE Space for ESA (European Space Agency)",
+    "companyType": "Programme/Contract",
+    "location": "United Kingdom / Remote",
+    "summary": "Managed marketing and editorial activity supporting ESA Business Applications and coordinated stakeholder-facing events and webinars.",
+    "responsibilities": [
+      "Wrote and edited editorial content for ESA Business Applications communications.",
+      "Organised and coordinated webinars and outreach events for funding calls.",
+      "Liaised with ESA Corporate Communications, design and legal teams to ensure compliance and brand alignment."
+    ],
+    "skills": [
+      "Editorial Strategy",
+      "Event Coordination",
+      "Stakeholder Management",
+      "Technical Communications",
+      "Webinar Production"
+    ]
+  },
+  {
+    "id": 4,
+    "date": "July 2018 - July 2021",
+    "title": "Self-employed (Freelance)",
+    "company": "Freelance",
+    "location": "United Kingdom",
+    "summary": "Delivered editorial, social media, and course content for academic and industry clients in the space and Earth-observation sectors.",
+    "responsibilities": [
+      "Designed and implemented social media strategy for University of Leicester’s Copernicus Hackathon.",
+      "Authored editorial content for Point.IOT MOOC in partnership with Space Tec Partners.",
+      "Served as editor for the Ocean State Report 4 and led social media strategy for @CMEMS_EU."
+    ],
+    "skills": [
+      "Content Development",
+      "Social Media Strategy",
+      "Course Content",
+      "Editorial Management",
+      "Stakeholder Liaison"
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2019 - 2022",
+    "title": "Co-Founder & Director",
+    "company": "Powering Space",
+    "companyType": "Network / Non-profit",
+    "location": "International / Remote",
+    "summary": "Co-founded a global network to support space communicators, outreach practitioners and stakeholders through events, resources and community-building.",
+    "responsibilities": [
+      "Established strategic partnerships with organisations, foundations and individuals across the space sector.",
+      "Curated events, workshops and resources to broaden public engagement with space topics.",
+      "Managed communications and governance for the network."
+    ],
+    "skills": [
+      "Community Building",
+      "Event Programming",
+      "Communications Strategy",
+      "Partnership Development"
+    ]
+  },
+  {
+    "id": 6,
+    "date": "2018 - 2021",
+    "title": "Co-Founder & Director",
+    "company": "R&R Space Ltd",
+    "companyType": "Company",
+    "location": "United Kingdom",
+    "summary": "Co-founded a company focused on space technology outreach, training and events to inspire entrepreneurship and skills development.",
+    "responsibilities": [
+      "Developed education and outreach initiatives blending training, events and hands-on learning.",
+      "Coordinated programme delivery and managed collaborator relationships."
+    ],
+    "skills": [
+      "Program Development",
+      "Outreach",
+      "Event Management",
+      "Partnerships"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "July 2015 - July 2021",
+    "title": "Editor",
+    "company": "Design & Data GmbH",
+    "companyType": "Publisher / Media",
+    "location": "Remote / Europe",
+    "summary": "Led editorial content and produced multimedia scripts and interviews for space-related series and institutional partners.",
+    "responsibilities": [
+      "Scripted and produced video content for ESA and diplomatic interview series.",
+      "Served as Editor-in-Chief for Design & Data and Spaceoneers websites, overseeing content strategy and social media."
+    ],
+    "skills": [
+      "Editorial Leadership",
+      "Scriptwriting",
+      "Video Production",
+      "Multimedia Storytelling",
+      "Social Media Management"
+    ]
+  },
+  {
+    "id": 8,
+    "date": "September 2005 - July 2009",
+    "title": "STEM Communicator",
+    "company": "Bloodhound SSC",
+    "companyType": "Education / Outreach",
+    "location": "United Kingdom",
+    "summary": "Produced online educational resources and delivered STEM workshops in schools.",
+    "responsibilities": [
+      "Created BLAST education platform content and delivered hands-on workshops for school students.",
+      "Developed age-appropriate activities demonstrating engineering and science concepts."
+    ],
+    "skills": [
+      "Education",
+      "Workshop Delivery",
+      "Curriculum Content",
+      "Public Engagement"
+    ]
+  },
+  {
+    "id": 9,
+    "date": "January 2014 - June 2014",
+    "title": "Journalist (Intern, Science Communication)",
+    "company": "European Southern Observatory (ESO)",
+    "companyType": "Research Organisation",
+    "location": "Garching / Germany",
+    "summary": "Supported ESO's Education & Public Outreach team producing news releases, photo releases, web copy and scripts.",
+    "responsibilities": [
+      "Prepared news and photo releases, web pages and video scripts for ESO and ESA/Hubble.",
+      "Contributed to exhibitions and other public communication products."
+    ],
+    "skills": [
+      "Science Journalism",
+      "Public Outreach",
+      "Press Releases",
+      "Science Storytelling"
+    ]
+  },
+  {
+    "id": 10,
+    "date": "October 2013 - January 2014",
+    "title": "Intern (Space Scoop)",
+    "company": "Universe Awareness (UNAWE) at Leiden University",
+    "companyType": "Education Programme",
+    "location": "Leiden, Netherlands",
+    "summary": "Expanded Space Scoop content syndication to new media platforms and evaluated distribution channels for children’s science content.",
+    "responsibilities": [
+      "Researched syndication and distribution strategies for youth science content.",
+      "Adapted Space Scoop stories for diverse media channels to increase reach."
+    ],
+    "skills": [
+      "Content Syndication",
+      "Children's Media",
+      "Research",
+      "Content Adaptation"
+    ]
+  },
+  {
+    "id": 11,
+    "date": "January 2013 - April 2013",
+    "title": "Intern",
+    "company": "Space Generation Advisory Council (SGAC)",
+    "companyType": "NGO",
+    "location": "International / Remote",
+    "summary": "Supported SGAC operations, reporting and event organisation, and represented SGAC at UN COPUOS meetings.",
+    "responsibilities": [
+      "Contributed to the Space Generation Fusion Forum and SGAC annual reporting.",
+      "Presented to the Scientific and Technical Subcommittee of the UN COPUOS."
+    ],
+    "skills": [
+      "Event Support",
+      "Reporting",
+      "Policy Engagement",
+      "Public Speaking"
+    ]
+  },
+  {
+    "id": 12,
+    "date": "September 2009 - 2012",
+    "title": "Postgraduate Demonstrator",
+    "company": "School of Physical Sciences, University of Kent",
+    "companyType": "University",
+    "location": "Canterbury, United Kingdom",
+    "summary": "Taught undergraduate tutorials and marked assignments across physics modules.",
+    "responsibilities": [
+      "Delivered teaching sessions for foundation and first-year physics modules and assessed student work.",
+      "Developed teaching materials and supported student learning."
+    ],
+    "skills": [
+      "Teaching",
+      "Assessment",
+      "Curriculum Support",
+      "Academic Mentoring"
+    ]
+  },
+  {
+    "id": 13,
+    "date": "September 2009 - 2012",
+    "title": "Outreach Support",
+    "company": "South-East Physics Network (SEPnet)",
+    "companyType": "Consortium",
+    "location": "United Kingdom",
+    "summary": "Delivered talks and demonstrations for schools and public events, including inflatable planetarium shows.",
+    "responsibilities": [
+      "Presented outreach talks and planetarium shows to school audiences.",
+      "Supported open days and public engagement activities."
+    ],
+    "skills": [
+      "Public Engagement",
+      "Presentation",
+      "Event Delivery"
+    ]
+  },
+  {
+    "id": 14,
+    "date": "September 2009 - 2012",
+    "title": "Technician",
+    "company": "Space Research Centre, University of Leicester",
+    "companyType": "University Research",
+    "location": "Leicester, United Kingdom",
+    "summary": "Worked on calibration data analysis for the GERB instrument and developed tools for data visualisation and inspection.",
+    "responsibilities": [
+      "Analysed calibration data for GERB Focal Plane Array and developed software to visualise variables.",
+      "Maintained data processing workflows and verified calibration outputs."
+    ],
+    "skills": [
+      "Data Analysis",
+      "Scientific Software",
+      "Calibration",
+      "Instrumentation"
+    ]
+  },
+  {
+    "id": 15,
+    "date": "June 2008 - July 2008",
+    "title": "Student Associate",
+    "company": "Brockington College, Enderby",
+    "companyType": "School",
+    "location": "Enderby, Leicestershire, United Kingdom",
+    "summary": "Supported science teaching for pupils aged 11–14 as part of a university–school partnership.",
+    "responsibilities": [
+      "Assisted classroom learning and supported practical science sessions.",
+      "Worked with faculty to plan age-appropriate activities."
+    ],
+    "skills": [
+      "Classroom Support",
+      "Practical Science",
+      "Education Assistance"
+    ]
+  },
+  {
+    "id": 16,
+    "date": "June 2008",
+    "title": "Technician (Summer Research)",
+    "company": "Department of Physics & Astronomy, University of Leicester",
+    "companyType": "University",
+    "location": "Leicester, United Kingdom",
+    "summary": "Summer undergraduate research on time-variable absorption in polluted white dwarfs, analysing pipeline data and fitting spectra.",
+    "responsibilities": [
+      "Analysed FUSE pipeline data and performed spectral fitting.",
+      "Investigated Si III–star interactions and contributed to summer research outputs."
+    ],
+    "skills": [
+      "Spectral Analysis",
+      "Data Reduction",
+      "Research Techniques"
+    ]
+  }
+]
