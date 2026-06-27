@@ -15,8 +15,8 @@
     "test": "vitest run",
     "type-check": "tsc --noEmit",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist",
-    "clean": "rimraf dist node_modules/.vite"
+    "deploy": "gh-pages -d build",
+    "clean": "rimraf build node_modules/.vite"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
