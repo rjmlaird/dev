@@ -15,14 +15,22 @@ const Achievement = () => {
    const learningBadges = useMemo(() => getLearningBadges(), []);
    const achievements = useMemo(() => getAchievements(), []);
 
-   const certifications = useMemo(
-      () =>
-         [...rawCertifications].sort(
-            (a, b) =>
-               (LEVEL_ORDER[a.level] ?? 99) - (LEVEL_ORDER[b.level] ?? 99),
-         ),
-      [rawCertifications],
-   );
+   const certifications = useMemo(() => {
+      const safeCertifications = Array.isArray(rawCertifications)
+         ? rawCertifications
+         : [];
+
+      return [...safeCertifications].sort(
+         (a, b) =>
+            (LEVEL_ORDER[a.level] ?? 99) - (LEVEL_ORDER[b.level] ?? 99),
+      );
+   }, [rawCertifications]);
+
+   const safeLearningBadges = Array.isArray(learningBadges)
+      ? learningBadges
+      : [];
+
+   const safeAchievements = Array.isArray(achievements) ? achievements : [];
 
    return (
       <PageSection
@@ -40,8 +48,8 @@ const Achievement = () => {
             }}
          >
             <CertBadgeShowcase certifications={certifications} />
-            <BadgesSection badges={learningBadges} />
-            <CompetitionsSection achievements={achievements} />
+            <BadgesSection badges={safeLearningBadges} />
+            <CompetitionsSection achievements={safeAchievements} />
          </div>
       </PageSection>
    );
