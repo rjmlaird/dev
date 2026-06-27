@@ -18,11 +18,8 @@ import SystemStatus from "@components/ui/SystemStatus";
 import { hasWebGL } from "@components/layout/Header/heroConstants";
 import { BreakpointProvider } from "@hooks/BreakpointProvider";
 
-// Global interactive 3D background, lazy-loaded so Three.js stays out of the
-// initial bundle. Falls back to the 2D constellation when WebGL is unavailable.
 const SceneBackground = lazy(() => import("@components/3d/SceneBackground"));
 
-// Lazy Load "Below the fold" sections for massive performance gains
 const About = lazy(() => import("@pages/about/About"));
 const Experience = lazy(() => import("@pages/experience/Experience"));
 const Skill = lazy(() => import("@pages/skill/Skill"));
@@ -34,89 +31,107 @@ const Contact = lazy(() => import("@pages/contact/Contact"));
 const GitHub = lazy(() => import("@pages/github/GitHub"));
 
 const App = () => {
-   const [webGLSupported] = useState(() => hasWebGL());
+  const [webGLSupported] = useState(() => hasWebGL());
 
-   useEffect(() => {
-      globalThis.history.scrollRestoration = "manual";
-      globalThis.scrollTo(0, 0);
-   }, []);
+  useEffect(() => {
+    if (typeof window === "undefined") return;
 
-   return (
-      <ReactLenis
-         root
-         options={{
-            duration: 1,
-            easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-         }}
-      >
-         <BreakpointProvider>
-         <ErrorBoundary>
-            <Preloader />
-            <ScrollProgress />
-            <KeyboardNav />
-            <AuroraBlobs />
-            <ShootingStars />
-            {webGLSupported ? (
-               <ErrorBoundary fallback={<InteractiveConstellation />}>
-                  <Suspense fallback={null}>
-                     <SceneBackground />
-                  </Suspense>
-               </ErrorBoundary>
-            ) : (
-               <InteractiveConstellation />
-            )}
-            <ParallaxElements />
-            <div className="relative min-h-screen">
-               <Nav />
-               <main>
-                  <Hero />
-                  <Suspense fallback={<SectionLoader />}>
-                     <SectionTransition variant="gradient-sweep" />
-                     <div className="section-darker">
-                        <About />
-                     </div>
-                     <SectionTransition variant="glow-pulse" />
-                     <div className="section-dark">
-                        <Experience />
-                     </div>
-                     <SectionTransition variant="beam" />
-                     <div className="section-darker">
-                        <Education />
-                     </div>
-                     <SectionTransition variant="geometric-scatter" />
-                     <div className="section-dark">
-                        <Skill />
-                     </div>
-                     <SectionTransition variant="gradient-sweep" />
-                     <div className="section-darker" id="projects">
-                        <Portfolio />
-                     </div>
-                     <SectionTransition variant="glow-pulse" />
-                     <div className="section-dark" id="achievements">
-                        <Achievement />
-                     </div>
-                     <SectionTransition variant="beam" />
-                     <div className="section-darker" id="services">
-                        <Services />
-                     </div>
-                     <SectionTransition variant="geometric-scatter" />
-                     <div className="section-dark" id="github">
-                        <GitHub />
-                     </div>
-                     <SectionTransition variant="gradient-sweep" />
-                     <div className="section-darker" id="contact">
-                        <Contact />
-                     </div>
-                  </Suspense>
-               </main>
-               <Footer />
-               <BackToTop />
-               <SystemStatus />
-            </div>
-         </ErrorBoundary>
-         </BreakpointProvider>
-      </ReactLenis>
-   );
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <ReactLenis
+      root
+      options={{
+        duration: 1,
+        easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      }}
+    >
+      <BreakpointProvider>
+        <ErrorBoundary>
+          <Preloader />
+          <ScrollProgress />
+          <KeyboardNav />
+          <AuroraBlobs />
+          <ShootingStars />
+
+          {webGLSupported ? (
+            <ErrorBoundary fallback={<InteractiveConstellation />}>
+              <Suspense fallback={null}>
+                <SceneBackground />
+              </Suspense>
+            </ErrorBoundary>
+          ) : (
+            <InteractiveConstellation />
+          )}
+
+          <ParallaxElements />
+
+          <div className="relative min-h-screen">
+            <Nav />
+            <main>
+              <Hero />
+
+              <Suspense fallback={<SectionLoader />}>
+                <SectionTransition variant="gradient-sweep" />
+                <div className="section-darker">
+                  <About />
+                </div>
+
+                <SectionTransition variant="glow-pulse" />
+                <div className="section-dark">
+                  <Experience />
+                </div>
+
+                <SectionTransition variant="beam" />
+                <div className="section-darker">
+                  <Education />
+                </div>
+
+                <SectionTransition variant="geometric-scatter" />
+                <div className="section-dark">
+                  <Skill />
+                </div>
+
+                <SectionTransition variant="gradient-sweep" />
+                <div className="section-darker" id="projects">
+                  <Portfolio />
+                </div>
+
+                <SectionTransition variant="glow-pulse" />
+                <div className="section-dark" id="achievements">
+                  <Achievement />
+                </div>
+
+                <SectionTransition variant="beam" />
+                <div className="section-darker" id="services">
+                  <Services />
+                </div>
+
+                <SectionTransition variant="geometric-scatter" />
+                <div className="section-dark" id="github">
+                  <GitHub />
+                </div>
+
+                <SectionTransition variant="gradient-sweep" />
+                <div className="section-darker" id="contact">
+                  <Contact />
+                </div>
+              </Suspense>
+            </main>
+
+            <Footer />
+            <BackToTop />
+            <SystemStatus />
+          </div>
+        </ErrorBoundary>
+      </BreakpointProvider>
+    </ReactLenis>
+  );
 };
 
 export default App;
