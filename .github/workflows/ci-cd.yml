@@ -11,6 +11,7 @@ on:
    workflow_run:
       workflows: ["Sync Credly Badges"]
       types: [completed]
+   workflow_dispatch:
 
 # Allow only one concurrent deployment
 concurrency:
