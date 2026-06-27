@@ -5,15 +5,11 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  # Rebuild after the Credly sync bot pushes new badge data. A push by the
-  # default GITHUB_TOKEN does not retrigger `on: push`, so deploy via
-  # workflow_run instead (not subject to that restriction).
   workflow_run:
     workflows: ["Sync Credly Badges"]
     types: [completed]
   workflow_dispatch:
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages-${{ github.ref }}"
   cancel-in-progress: true
@@ -71,7 +67,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
-          path: "public"
+          path: "build"
 
   deploy:
     if: >
