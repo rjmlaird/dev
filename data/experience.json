@@ -1,321 +1,322 @@
 {
-   "professional_experience": [
-  {
-    "id": 1,
-    "date": "October 2023 - Present",
-    "title": "Founder & Director",
-    "company": "Green Orbit Digital",
-    "companyType": "Agency",
-    "location": "Leicester, United Kingdom",
-    "summary": "Leading a specialist marketing agency that integrates sustainability into brand strategy and communications for space-sector clients.",
-    "responsibilities": [
-      "Developed and executed data-informed marketing and PR strategies for clients in the space and Earth-observation sectors.",
-      "Built sustainable marketing programmes that align brand growth with environmental best practice and Carbon Literacy principles.",
-      "Managed client relationships, project budgets, and cross-disciplinary teams (creative, technical, editorial).",
-      "Produced content and campaigns to increase engagement, lead generation, and sector visibility."
-    ],
-    "skills": [
-      "Sustainable Marketing",
-      "Brand Strategy",
-      "Content Strategy",
-      "SEO",
-      "Social Media",
-      "Lead Generation",
-      "Project Management",
-      "Stakeholder Engagement"
-    ],
-    "links": [
-      {
-        "label": "Agency site",
-        "url": "https://greenorbit.space"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "date": "March 2023 - October 2023",
-    "title": "Career Break / Professional Development",
-    "company": "Self-directed",
-    "location": "United Kingdom",
-    "summary": "Focused on professional development following a personal bereavement, completing Chartered Marketer accreditation and courses in science communication and digital marketing.",
-    "responsibilities": [
-      "Achieved Chartered Marketer (CMktr) accreditation.",
-      "Completed Applied Science Communication: Online and Media Writing (UWE).",
-      "Completed multiple online professional courses to update marketing and communications skills."
-    ],
-    "skills": [
-      "Chartered Marketing",
-      "Science Communication",
-      "Professional Development",
-      "Digital Marketing Techniques"
-    ]
-  },
-  {
-    "id": 3,
-    "date": "August 2021 - February 2023",
-    "title": "Marketing & Communications Manager",
-    "company": "HE Space for ESA (European Space Agency)",
-    "companyType": "Programme/Contract",
-    "location": "United Kingdom / Remote",
-    "summary": "Managed marketing and editorial activity supporting ESA Business Applications and coordinated stakeholder-facing events and webinars.",
-    "responsibilities": [
-      "Wrote and edited editorial content for ESA Business Applications communications.",
-      "Organised and coordinated webinars and outreach events for funding calls.",
-      "Liaised with ESA Corporate Communications, design and legal teams to ensure compliance and brand alignment."
-    ],
-    "skills": [
-      "Editorial Strategy",
-      "Event Coordination",
-      "Stakeholder Management",
-      "Technical Communications",
-      "Webinar Production"
-    ]
-  },
-  {
-    "id": 4,
-    "date": "July 2018 - July 2021",
-    "title": "Self-employed (Freelance)",
-    "company": "Freelance",
-    "location": "United Kingdom",
-    "summary": "Delivered editorial, social media, and course content for academic and industry clients in the space and Earth-observation sectors.",
-    "responsibilities": [
-      "Designed and implemented social media strategy for University of Leicester’s Copernicus Hackathon.",
-      "Authored editorial content for Point.IOT MOOC in partnership with Space Tec Partners.",
-      "Served as editor for the Ocean State Report 4 and led social media strategy for @CMEMS_EU."
-    ],
-    "skills": [
-      "Content Development",
-      "Social Media Strategy",
-      "Course Content",
-      "Editorial Management",
-      "Stakeholder Liaison"
-    ]
-  },
-  {
-    "id": 5,
-    "date": "2019 - 2022",
-    "title": "Co-Founder & Director",
-    "company": "Powering Space",
-    "companyType": "Network / Non-profit",
-    "location": "International / Remote",
-    "summary": "Co-founded a global network to support space communicators, outreach practitioners and stakeholders through events, resources and community-building.",
-    "responsibilities": [
-      "Established strategic partnerships with organisations, foundations and individuals across the space sector.",
-      "Curated events, workshops and resources to broaden public engagement with space topics.",
-      "Managed communications and governance for the network."
-    ],
-    "skills": [
-      "Community Building",
-      "Event Programming",
-      "Communications Strategy",
-      "Partnership Development"
-    ]
-  },
-  {
-    "id": 6,
-    "date": "2018 - 2021",
-    "title": "Co-Founder & Director",
-    "company": "R&R Space Ltd",
-    "companyType": "Company",
-    "location": "United Kingdom",
-    "summary": "Co-founded a company focused on space technology outreach, training and events to inspire entrepreneurship and skills development.",
-    "responsibilities": [
-      "Developed education and outreach initiatives blending training, events and hands-on learning.",
-      "Coordinated programme delivery and managed collaborator relationships."
-    ],
-    "skills": [
-      "Program Development",
-      "Outreach",
-      "Event Management",
-      "Partnerships"
-    ]
-  },
-  {
-    "id": 7,
-    "date": "July 2015 - July 2021",
-    "title": "Editor",
-    "company": "Design & Data GmbH",
-    "companyType": "Publisher / Media",
-    "location": "Remote / Europe",
-    "summary": "Led editorial content and produced multimedia scripts and interviews for space-related series and institutional partners.",
-    "responsibilities": [
-      "Scripted and produced video content for ESA and diplomatic interview series.",
-      "Served as Editor-in-Chief for Design & Data and Spaceoneers websites, overseeing content strategy and social media."
-    ],
-    "skills": [
-      "Editorial Leadership",
-      "Scriptwriting",
-      "Video Production",
-      "Multimedia Storytelling",
-      "Social Media Management"
-    ]
-  },
-  {
-    "id": 8,
-    "date": "September 2005 - July 2009",
-    "title": "STEM Communicator",
-    "company": "Bloodhound SSC",
-    "companyType": "Education / Outreach",
-    "location": "United Kingdom",
-    "summary": "Produced online educational resources and delivered STEM workshops in schools.",
-    "responsibilities": [
-      "Created BLAST education platform content and delivered hands-on workshops for school students.",
-      "Developed age-appropriate activities demonstrating engineering and science concepts."
-    ],
-    "skills": [
-      "Education",
-      "Workshop Delivery",
-      "Curriculum Content",
-      "Public Engagement"
-    ]
-  },
-  {
-    "id": 9,
-    "date": "January 2014 - June 2014",
-    "title": "Journalist (Intern, Science Communication)",
-    "company": "European Southern Observatory (ESO)",
-    "companyType": "Research Organisation",
-    "location": "Garching / Germany",
-    "summary": "Supported ESO's Education & Public Outreach team producing news releases, photo releases, web copy and scripts.",
-    "responsibilities": [
-      "Prepared news and photo releases, web pages and video scripts for ESO and ESA/Hubble.",
-      "Contributed to exhibitions and other public communication products."
-    ],
-    "skills": [
-      "Science Journalism",
-      "Public Outreach",
-      "Press Releases",
-      "Science Storytelling"
-    ]
-  },
-  {
-    "id": 10,
-    "date": "October 2013 - January 2014",
-    "title": "Intern (Space Scoop)",
-    "company": "Universe Awareness (UNAWE) at Leiden University",
-    "companyType": "Education Programme",
-    "location": "Leiden, Netherlands",
-    "summary": "Expanded Space Scoop content syndication to new media platforms and evaluated distribution channels for children’s science content.",
-    "responsibilities": [
-      "Researched syndication and distribution strategies for youth science content.",
-      "Adapted Space Scoop stories for diverse media channels to increase reach."
-    ],
-    "skills": [
-      "Content Syndication",
-      "Children's Media",
-      "Research",
-      "Content Adaptation"
-    ]
-  },
-  {
-    "id": 11,
-    "date": "January 2013 - April 2013",
-    "title": "Intern",
-    "company": "Space Generation Advisory Council (SGAC)",
-    "companyType": "NGO",
-    "location": "International / Remote",
-    "summary": "Supported SGAC operations, reporting and event organisation, and represented SGAC at UN COPUOS meetings.",
-    "responsibilities": [
-      "Contributed to the Space Generation Fusion Forum and SGAC annual reporting.",
-      "Presented to the Scientific and Technical Subcommittee of the UN COPUOS."
-    ],
-    "skills": [
-      "Event Support",
-      "Reporting",
-      "Policy Engagement",
-      "Public Speaking"
-    ]
-  },
-  {
-    "id": 12,
-    "date": "September 2009 - 2012",
-    "title": "Postgraduate Demonstrator",
-    "company": "School of Physical Sciences, University of Kent",
-    "companyType": "University",
-    "location": "Canterbury, United Kingdom",
-    "summary": "Taught undergraduate tutorials and marked assignments across physics modules.",
-    "responsibilities": [
-      "Delivered teaching sessions for foundation and first-year physics modules and assessed student work.",
-      "Developed teaching materials and supported student learning."
-    ],
-    "skills": [
-      "Teaching",
-      "Assessment",
-      "Curriculum Support",
-      "Academic Mentoring"
-    ]
-  },
-  {
-    "id": 13,
-    "date": "September 2009 - 2012",
-    "title": "Outreach Support",
-    "company": "South-East Physics Network (SEPnet)",
-    "companyType": "Consortium",
-    "location": "United Kingdom",
-    "summary": "Delivered talks and demonstrations for schools and public events, including inflatable planetarium shows.",
-    "responsibilities": [
-      "Presented outreach talks and planetarium shows to school audiences.",
-      "Supported open days and public engagement activities."
-    ],
-    "skills": [
-      "Public Engagement",
-      "Presentation",
-      "Event Delivery"
-    ]
-  },
-  {
-    "id": 14,
-    "date": "September 2009 - 2012",
-    "title": "Technician",
-    "company": "Space Research Centre, University of Leicester",
-    "companyType": "University Research",
-    "location": "Leicester, United Kingdom",
-    "summary": "Worked on calibration data analysis for the GERB instrument and developed tools for data visualisation and inspection.",
-    "responsibilities": [
-      "Analysed calibration data for GERB Focal Plane Array and developed software to visualise variables.",
-      "Maintained data processing workflows and verified calibration outputs."
-    ],
-    "skills": [
-      "Data Analysis",
-      "Scientific Software",
-      "Calibration",
-      "Instrumentation"
-    ]
-  },
-  {
-    "id": 15,
-    "date": "June 2008 - July 2008",
-    "title": "Student Associate",
-    "company": "Brockington College, Enderby",
-    "companyType": "School",
-    "location": "Enderby, Leicestershire, United Kingdom",
-    "summary": "Supported science teaching for pupils aged 11–14 as part of a university–school partnership.",
-    "responsibilities": [
-      "Assisted classroom learning and supported practical science sessions.",
-      "Worked with faculty to plan age-appropriate activities."
-    ],
-    "skills": [
-      "Classroom Support",
-      "Practical Science",
-      "Education Assistance"
-    ]
-  },
-  {
-    "id": 16,
-    "date": "June 2008",
-    "title": "Technician (Summer Research)",
-    "company": "Department of Physics & Astronomy, University of Leicester",
-    "companyType": "University",
-    "location": "Leicester, United Kingdom",
-    "summary": "Summer undergraduate research on time-variable absorption in polluted white dwarfs, analysing pipeline data and fitting spectra.",
-    "responsibilities": [
-      "Analysed FUSE pipeline data and performed spectral fitting.",
-      "Investigated Si III–star interactions and contributed to summer research outputs."
-    ],
-    "skills": [
-      "Spectral Analysis",
-      "Data Reduction",
-      "Research Techniques"
-    ]
-  }
+  "professional_experience": [
+    {
+      "id": 1,
+      "date": "October 2023 - Present",
+      "title": "Founder & Director",
+      "company": "Green Orbit Digital",
+      "companyType": "Agency",
+      "location": "Leicester, United Kingdom",
+      "summary": "Leading a specialist marketing agency that integrates sustainability into brand strategy and communications for space-sector clients.",
+      "responsibilities": [
+        "Developed and executed data-informed marketing and PR strategies for clients in the space and Earth-observation sectors.",
+        "Built sustainable marketing programmes that align brand growth with environmental best practice and Carbon Literacy principles.",
+        "Managed client relationships, project budgets, and cross-disciplinary teams across creative, technical, and editorial functions.",
+        "Produced content and campaigns to increase engagement, lead generation, and sector visibility."
+      ],
+      "skills": [
+        "Sustainable Marketing",
+        "Brand Strategy",
+        "Content Strategy",
+        "SEO",
+        "Social Media",
+        "Lead Generation",
+        "Project Management",
+        "Stakeholder Engagement"
+      ],
+      "links": [
+        {
+          "label": "Agency site",
+          "url": "https://greenorbit.space"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "March 2023 - October 2023",
+      "title": "Career Break / Professional Development",
+      "company": "Self-directed",
+      "location": "United Kingdom",
+      "summary": "Focused on professional development following a personal bereavement, completing Chartered Marketer accreditation and courses in science communication and digital marketing.",
+      "responsibilities": [
+        "Achieved Chartered Marketer (CMktr) accreditation.",
+        "Completed Applied Science Communication: Online and Media Writing at UWE.",
+        "Completed multiple online professional courses to update marketing and communications skills."
+      ],
+      "skills": [
+        "Chartered Marketing",
+        "Science Communication",
+        "Professional Development",
+        "Digital Marketing Techniques"
+      ]
+    },
+    {
+      "id": 3,
+      "date": "August 2021 - February 2023",
+      "title": "Marketing & Communications Manager",
+      "company": "HE Space for ESA (European Space Agency)",
+      "companyType": "Programme/Contract",
+      "location": "United Kingdom / Remote",
+      "summary": "Managed marketing and editorial activity supporting ESA Business Applications and coordinated stakeholder-facing events and webinars.",
+      "responsibilities": [
+        "Wrote and edited editorial content for ESA Business Applications communications.",
+        "Organised and coordinated webinars and outreach events for funding calls.",
+        "Liaised with ESA Corporate Communications, design, and legal teams to ensure compliance and brand alignment."
+      ],
+      "skills": [
+        "Editorial Strategy",
+        "Event Coordination",
+        "Stakeholder Management",
+        "Technical Communications",
+        "Webinar Production"
+      ]
+    },
+    {
+      "id": 4,
+      "date": "July 2018 - July 2021",
+      "title": "Self-employed (Freelance)",
+      "company": "Freelance",
+      "location": "United Kingdom",
+      "summary": "Delivered editorial, social media, and course content for academic and industry clients in the space and Earth-observation sectors.",
+      "responsibilities": [
+        "Designed and implemented social media strategy for University of Leicester’s Copernicus Hackathon.",
+        "Authored editorial content for Point.IOT MOOC in partnership with Space Tec Partners.",
+        "Served as editor for Ocean State Report 4 and led social media strategy for @CMEMS_EU."
+      ],
+      "skills": [
+        "Content Development",
+        "Social Media Strategy",
+        "Course Content",
+        "Editorial Management",
+        "Stakeholder Liaison"
+      ]
+    },
+    {
+      "id": 5,
+      "date": "2019 - 2022",
+      "title": "Co-Founder & Director",
+      "company": "Powering Space",
+      "companyType": "Network / Non-profit",
+      "location": "International / Remote",
+      "summary": "Co-founded a global network to support space communicators, outreach practitioners, and stakeholders through events, resources, and community-building.",
+      "responsibilities": [
+        "Established strategic partnerships with organisations, foundations, and individuals across the space sector.",
+        "Curated events, workshops, and resources to broaden public engagement with space topics.",
+        "Managed communications and governance for the network."
+      ],
+      "skills": [
+        "Community Building",
+        "Event Programming",
+        "Communications Strategy",
+        "Partnership Development"
+      ]
+    },
+    {
+      "id": 6,
+      "date": "2018 - 2021",
+      "title": "Co-Founder & Director",
+      "company": "R&R Space Ltd",
+      "companyType": "Company",
+      "location": "United Kingdom",
+      "summary": "Co-founded a company focused on space technology outreach, training, and events to inspire entrepreneurship and skills development.",
+      "responsibilities": [
+        "Developed education and outreach initiatives blending training, events, and hands-on learning.",
+        "Coordinated programme delivery and managed collaborator relationships."
+      ],
+      "skills": [
+        "Programme Development",
+        "Outreach",
+        "Event Management",
+        "Partnerships"
+      ]
+    },
+    {
+      "id": 7,
+      "date": "July 2015 - July 2021",
+      "title": "Editor",
+      "company": "Design & Data GmbH",
+      "companyType": "Publisher / Media",
+      "location": "Remote / Europe",
+      "summary": "Led editorial content and produced multimedia scripts and interviews for space-related series and institutional partners.",
+      "responsibilities": [
+        "Scripted and produced video content for ESA and diplomatic interview series.",
+        "Served as Editor-in-Chief for Design & Data and Spaceoneers websites, overseeing content strategy and social media."
+      ],
+      "skills": [
+        "Editorial Leadership",
+        "Scriptwriting",
+        "Video Production",
+        "Multimedia Storytelling",
+        "Social Media Management"
+      ]
+    },
+    {
+      "id": 8,
+      "date": "September 2005 - July 2009",
+      "title": "STEM Communicator",
+      "company": "Bloodhound SSC",
+      "companyType": "Education / Outreach",
+      "location": "United Kingdom",
+      "summary": "Produced online educational resources and delivered STEM workshops in schools.",
+      "responsibilities": [
+        "Created BLAST education platform content and delivered hands-on workshops for school students.",
+        "Developed age-appropriate activities demonstrating engineering and science concepts."
+      ],
+      "skills": [
+        "Education",
+        "Workshop Delivery",
+        "Curriculum Content",
+        "Public Engagement"
+      ]
+    },
+    {
+      "id": 9,
+      "date": "January 2014 - June 2014",
+      "title": "Journalist (Intern, Science Communication)",
+      "company": "European Southern Observatory (ESO)",
+      "companyType": "Research Organisation",
+      "location": "Garching, Germany",
+      "summary": "Supported ESO's Education & Public Outreach team producing news releases, photo releases, web copy, and scripts.",
+      "responsibilities": [
+        "Prepared news and photo releases, web pages, and video scripts for ESO and ESA/Hubble.",
+        "Contributed to exhibitions and other public communication products."
+      ],
+      "skills": [
+        "Science Journalism",
+        "Public Outreach",
+        "Press Releases",
+        "Science Storytelling"
+      ]
+    },
+    {
+      "id": 10,
+      "date": "October 2013 - January 2014",
+      "title": "Intern (Space Scoop)",
+      "company": "Universe Awareness (UNAWE) at Leiden University",
+      "companyType": "Education Programme",
+      "location": "Leiden, Netherlands",
+      "summary": "Expanded Space Scoop content syndication to new media platforms and evaluated distribution channels for children's science content.",
+      "responsibilities": [
+        "Researched syndication and distribution strategies for youth science content.",
+        "Adapted Space Scoop stories for diverse media channels to increase reach."
+      ],
+      "skills": [
+        "Content Syndication",
+        "Children's Media",
+        "Research",
+        "Content Adaptation"
+      ]
+    },
+    {
+      "id": 11,
+      "date": "January 2013 - April 2013",
+      "title": "Intern",
+      "company": "Space Generation Advisory Council (SGAC)",
+      "companyType": "NGO",
+      "location": "International / Remote",
+      "summary": "Supported SGAC operations, reporting, and event organisation, and represented SGAC at UN COPUOS meetings.",
+      "responsibilities": [
+        "Contributed to the Space Generation Fusion Forum and SGAC annual reporting.",
+        "Presented to the Scientific and Technical Subcommittee of the UN COPUOS."
+      ],
+      "skills": [
+        "Event Support",
+        "Reporting",
+        "Policy Engagement",
+        "Public Speaking"
+      ]
+    },
+    {
+      "id": 12,
+      "date": "September 2009 - 2012",
+      "title": "Postgraduate Demonstrator",
+      "company": "School of Physical Sciences, University of Kent",
+      "companyType": "University",
+      "location": "Canterbury, United Kingdom",
+      "summary": "Taught undergraduate tutorials and marked assignments across physics modules.",
+      "responsibilities": [
+        "Delivered teaching sessions for foundation and first-year physics modules and assessed student work.",
+        "Developed teaching materials and supported student learning."
+      ],
+      "skills": [
+        "Teaching",
+        "Assessment",
+        "Curriculum Support",
+        "Academic Mentoring"
+      ]
+    },
+    {
+      "id": 13,
+      "date": "September 2009 - 2012",
+      "title": "Outreach Support",
+      "company": "South-East Physics Network (SEPnet)",
+      "companyType": "Consortium",
+      "location": "United Kingdom",
+      "summary": "Delivered talks and demonstrations for schools and public events, including inflatable planetarium shows.",
+      "responsibilities": [
+        "Presented outreach talks and planetarium shows to school audiences.",
+        "Supported open days and public engagement activities."
+      ],
+      "skills": [
+        "Public Engagement",
+        "Presentation",
+        "Event Delivery"
+      ]
+    },
+    {
+      "id": 14,
+      "date": "September 2009 - 2012",
+      "title": "Technician",
+      "company": "Space Research Centre, University of Leicester",
+      "companyType": "University Research",
+      "location": "Leicester, United Kingdom",
+      "summary": "Worked on calibration data analysis for the GERB instrument and developed tools for data visualisation and inspection.",
+      "responsibilities": [
+        "Analysed calibration data for the GERB Focal Plane Array and developed software to visualise variables.",
+        "Maintained data processing workflows and verified calibration outputs."
+      ],
+      "skills": [
+        "Data Analysis",
+        "Scientific Software",
+        "Calibration",
+        "Instrumentation"
+      ]
+    },
+    {
+      "id": 15,
+      "date": "June 2008 - July 2008",
+      "title": "Student Associate",
+      "company": "Brockington College, Enderby",
+      "companyType": "School",
+      "location": "Enderby, Leicestershire, United Kingdom",
+      "summary": "Supported science teaching for pupils aged 11–14 as part of a university-school partnership.",
+      "responsibilities": [
+        "Assisted classroom learning and supported practical science sessions.",
+        "Worked with faculty to plan age-appropriate activities."
+      ],
+      "skills": [
+        "Classroom Support",
+        "Practical Science",
+        "Education Assistance"
+      ]
+    },
+    {
+      "id": 16,
+      "date": "June 2008",
+      "title": "Technician (Summer Research)",
+      "company": "Department of Physics & Astronomy, University of Leicester",
+      "companyType": "University",
+      "location": "Leicester, United Kingdom",
+      "summary": "Summer undergraduate research on time-variable absorption in polluted white dwarfs, analysing pipeline data and fitting spectra.",
+      "responsibilities": [
+        "Analysed FUSE pipeline data and performed spectral fitting.",
+        "Investigated Si III-star interactions and contributed to summer research outputs."
+      ],
+      "skills": [
+        "Spectral Analysis",
+        "Data Reduction",
+        "Research Techniques"
+      ]
+    }
+  ]
 }
