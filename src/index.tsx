@@ -5,13 +5,9 @@ import "@fontsource-variable/jetbrains-mono";
 import App from "./App";
 import "./index.css";
 
-const rootElement = document.getElementById("root");
-if (!rootElement) {
-   throw new Error('Root element #root not found. Check index.html.');
-}
-
+const rootElement = document.getElementById("root")!;
 createRoot(rootElement).render(
-   <StrictMode>
-      <App />
-   </StrictMode>,
+  <StrictMode>
+    <App />
+  </StrictMode>,
 );
