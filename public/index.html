@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Ryan Laird - Founder and Director of Green Orbit Digital. Portfolio showcasing sustainable marketing, space-sector communications, web development, and science communication."
+    />
+    <meta
+      name="keywords"
+      content="Ryan Laird, Green Orbit Digital, sustainable marketing, space communications, science communication, web development, portfolio, astrophysics, Leicester"
+    />
+    <meta name="author" content="Ryan Laird" />
+    <meta name="theme-color" content="#060610" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://rjmlaird.github.io/dev/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rjmlaird.github.io/dev/" />
+    <meta property="og:title" content="Ryan Laird | Green Orbit Digital" />
+    <meta
+      property="og:description"
+      content="Sustainable marketing, space-sector communications, and digital strategy."
+    />
+    <meta property="og:image" content="/dev/og-image.png" />
+    <meta property="og:image:width" content="1536" />
+    <meta property="og:image:height" content="768" />
+    <meta property="og:site_name" content="Ryan Laird Portfolio" />
+    <meta property="og:locale" content="en_GB" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ryan Laird | Green Orbit Digital" />
+    <meta
+      name="twitter:description"
+      content="Sustainable marketing, space-sector communications, and digital strategy."
+    />
+    <meta name="twitter:creator" content="@rjmlaird" />
+    <meta name="twitter:image" content="/dev/og-image.png" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rjmlaird.github.io/#person",
+            "name": "Ryan Laird",
+            "url": "https://rjmlaird.github.io/",
+            "image": "https://avatars.githubusercontent.com/u/92421383",
+            "jobTitle": "Founder & Director",
+            "description": "Founder and Director of Green Orbit Digital. Sustainable marketing and space-sector communications professional.",
+            "sameAs": [
+              "https://github.com/rjmlaird",
+              "https://www.linkedin.com/in/rjmlaird",
+              "https://www.instagram.com/rjmlaird/",
+              "https://x.com/rjmlaird"
+            ],
+            "knowsAbout": [
+              "Sustainable Marketing",
+              "Space Communications",
+              "Science Communication",
+              "Web Development",
+              "Project Management"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rjmlaird.github.io/dev/#website",
+            "url": "https://rjmlaird.github.io/dev/",
+            "name": "Ryan Laird Portfolio",
+            "description": "Portfolio of Ryan Laird - Founder and Director of Green Orbit Digital.",
+            "author": { "@id": "https://rjmlaird.github.io/#person" }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/dev/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/dev/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/dev/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/dev/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="/dev/favicon_io/site.webmanifest" />
+
+    <!-- Preconnect hints -->
+    <link rel="preconnect" href="https://scripts.simpleanalyticscdn.com" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+
+    <title>Ryan Laird | Green Orbit Digital</title>
+  </head>
+
+  <body>
+    <noscript>
+      <img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+      />
+      <p>You need to enable JavaScript to run this app.</p>
+    </noscript>
+
+    <div id="root"></div>
+    <script type="module" src="./src/index.tsx"></script>
+
+    <script>
+      globalThis.addEventListener("DOMContentLoaded", function () {
+        var d = globalThis.document;
+
+        var sa = d.createElement("script");
+        sa.async = true;
+        sa.defer = true;
+        sa.src = "https://scripts.simpleanalyticscdn.com/latest.js";
+        d.body.appendChild(sa);
+
+        var ga = d.createElement("script");
+        ga.async = true;
+        ga.src = "https://www.googletagmanager.com/gtag/js?id=G-PFFMG7D8DP";
+        d.body.appendChild(ga);
+
+        globalThis.dataLayer = globalThis.dataLayer || [];
+        function gtag() {
+          globalThis.dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-PFFMG7D8DP");
+      });
+    </script>
+  </body>
+</html>
